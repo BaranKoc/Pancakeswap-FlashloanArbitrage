@@ -22,7 +22,7 @@ $~$
 1) $~$ clone the project
    
    ```
-   git clone https://github.com/BaranKoc/Pancakeswap-FlashloanExample 
+   git clone https://github.com/BaranKoc/Pancakeswap-FlashloanArbitrage
    ```
 
 2) $~$ install packages
