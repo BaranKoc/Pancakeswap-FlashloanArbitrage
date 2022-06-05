@@ -1,6 +1,6 @@
-# Pancakeswap - FlashloanExample
+# Pancakeswap - FlashloanArbitrage
 
-Learn how to trigger Pancakeswaps **<mark>{Flashswap}</mark>** feature. Calculate repayment amount with token you barrow.  And execute a test swap on forked binance smart chain network.
+Learn how to trigger Pancakeswaps **<mark>{Flashswap}</mark>** feature. Calculate repayment amount. And execute a arbitrage trading using coin you barrow. Than pay it back
 
 $~$
 
