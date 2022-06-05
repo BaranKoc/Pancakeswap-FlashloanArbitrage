@@ -1,0 +1,329 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/baran/Desktop/ALL/empty/src/blockchain/contracts/FlashloanArbitrage.sol": {
+      "lastModificationDate": 1654435289647,
+      "contentHash": "103f78ef7226eeb00324edf4fc531869",
+      "sourceName": "src/blockchain/contracts/FlashloanArbitrage.sol",
+      "solcConfig": {
+        "version": "0.6.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/SafeMath.sol",
+        "./interfaces/IPancakeRouter02.sol",
+        "./interfaces/IPancakeERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.6"
+      ],
+      "artifacts": [
+        "FlashloanArbitrage"
+      ]
+    },
+    "/home/baran/Desktop/ALL/empty/src/blockchain/contracts/libraries/SafeMath.sol": {
+      "lastModificationDate": 1654108502497,
+      "contentHash": "d954399f76aa1a9652acb8921ae997f1",
+      "sourceName": "src/blockchain/contracts/libraries/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.6.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.6.6"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/home/baran/Desktop/ALL/empty/src/blockchain/contracts/libraries/PancakeLibrary.sol": {
+      "lastModificationDate": 1654108502497,
+      "contentHash": "7bd47d1cb3c5fc99a08023062f798aef",
+      "sourceName": "src/blockchain/contracts/libraries/PancakeLibrary.sol",
+      "solcConfig": {
+        "version": "0.6.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IPancakePair.sol",
+        "./SafeMath.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "PancakeLibrary"
+      ]
+    },
+    "/home/baran/Desktop/ALL/empty/src/blockchain/contracts/interfaces/IPancakeCallee.sol": {
+      "lastModificationDate": 1654108502497,
+      "contentHash": "d6c546f92030129add355939e27f2579",
+      "sourceName": "src/blockchain/contracts/interfaces/IPancakeCallee.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IPancakeCallee"
+      ]
+    },
+    "/home/baran/Desktop/ALL/empty/src/blockchain/contracts/interfaces/IPancakeFactory.sol": {
+      "lastModificationDate": 1654108502497,
+      "contentHash": "68863eba3bfbf56e7a66a04ba81fa3a2",
+      "sourceName": "src/blockchain/contracts/interfaces/IPancakeFactory.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IPancakeFactory"
+      ]
+    },
+    "/home/baran/Desktop/ALL/empty/src/blockchain/contracts/interfaces/IPancakeERC20.sol": {
+      "lastModificationDate": 1654108502497,
+      "contentHash": "ac15abf14cdb7d672b70861ab277c26e",
+      "sourceName": "src/blockchain/contracts/interfaces/IPancakeERC20.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IPancakeERC20"
+      ]
+    },
+    "/home/baran/Desktop/ALL/empty/src/blockchain/contracts/interfaces/IPancakePair.sol": {
+      "lastModificationDate": 1654108502497,
+      "contentHash": "7b2dea83f8fea0b4c8eb204ee931c4b6",
+      "sourceName": "src/blockchain/contracts/interfaces/IPancakePair.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IPancakePair"
+      ]
+    },
+    "/home/baran/Desktop/ALL/empty/src/blockchain/contracts/interfaces/IPancakeRouter02.sol": {
+      "lastModificationDate": 1654108502497,
+      "contentHash": "44d1c360d07f8f8e250ee4ca4ea1288e",
+      "sourceName": "src/blockchain/contracts/interfaces/IPancakeRouter02.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IPancakeRouter01.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IPancakeRouter02"
+      ]
+    },
+    "/home/baran/Desktop/ALL/empty/src/blockchain/contracts/interfaces/IPancakeRouter01.sol": {
+      "lastModificationDate": 1654108502497,
+      "contentHash": "5f9490dbe396de2067b39dadc84f422e",
+      "sourceName": "src/blockchain/contracts/interfaces/IPancakeRouter01.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IPancakeRouter01"
+      ]
+    }
+  }
+}
