@@ -1,84 +1,71 @@
-# Pancakeswap - FlashloanArbitrage
+<p align="center"><img src="static/pancakeswap.png" alt="MarkText" width="100" height="100"></p>
 
-Learn how to trigger Pancakeswaps **<mark>{Flashswap}</mark>** feature. Calculate repayment amount. And execute a arbitrage trading using coin you barrow. Than pay it back
+<h1 align="center"> Pancakeswap Triangular Flashswap Arbitrage </h1>
 
-$~$
+<div align="center">
+  <strong>:high_brightness: Triangular arbitrage :crescent_moon:</strong><br>
+  Simple smart contracts for understand how to exacute triangular flashswap arbitrage. <br>
+  <sub>Develop your own smart contracts for real life test</sub>
+</div>
 
-## Dependencies
+<div align="center">
+  <h3>
+    <a href="https://www.youtube.com">
+      YouTube
+    </a>
+    <span> | </span>
+    <a href="https://github.com/BaranKoc">
+      Github
+  </h3>
+</div>
 
-- Node.js ``` v14.19.0```
+<br>
+<br>
 
-- Npm ```6.14.16``` 
+<h2 align="center">Foreword</h2>
 
-- A crypto wallet like metamask
-  
-  $~$
- 
+Pancakeswap is the most popular dex on binance smart chain . 
+Where there is a market, there are arbitrage opportunities. 
+On Pancakeswap we can trade coin A for coin B. You can trade follow a given path e.g. A->B->C->D->A, and if you find correct path at correct time, 
+you can get more A than the original input amount! This process is called triangular arbitrage. 
 
-## How to install the project
+What if we take a large amount of debt, execute a triangular arbitrage with the money we get and pay it back and send our wallet what left after pay the debt.
+We could earn lots of monay wihout risking our balance. If you find profitable trading paths using your blockchain development skills, you will only need a
+smart contract for execute trade. This project includes needed smart contract for execute this trade.
 
-1) $~$ clone the project
-   
-   ```
-   git clone https://github.com/BaranKoc/Pancakeswap-FlashloanArbitrage
-   ```
+<br>
 
-2) $~$ install packages
-   
-   ```
-   npm i
-   ```
+<h2>What we are going to do for test smartcontracts</h2>
 
-$~$
+<table class="center">
+  <tr>
+    <th>Token A</th>
+    <th>Token B</th>
+    <th>Token C</th>
+  </tr>
+  <tr>
+    <td>DAI</td>
+    <td>BUSD</td>
+    <td>WBNB</td>
+  </tr>
+</table>
 
-## HOW TO RUN THE PROJECT
+- we will start arbitrage at [DAI/BUSD](https://etherscan.io) pair
+- 
 
-1) $~$ fill out .env file
-   
-   ```
-   project_folder = "PROJECT FOLDER PATH"
-   account_privateKey = "YOUR WALLET PRIVATE KEY" 
-   
-   forking_url = "https://bsc-dataseed.binance.org"
-   testnet_url = "http://127.0.0.1:7545"
-   mainnet_url = "" 
-   
-   usdc_whale =  "0xF977814e90dA44bFA03b6295A0616a897441aceC"
-   dai_whale =  "0xF977814e90dA44bFA03b6295A0616a897441aceC"
-   bnb_whale = "0xF977814e90dA44bFA03b6295A0616a897441aceC"
-   busd_whale =  "0xF977814e90dA44bFA03b6295A0616a897441aceC"
-   ```
+<br>
 
-2) $~$ run local ganache-cli fork
-   
-   ```
-   ganache-cli \
-   --fork https://bsc-dataseed.binance.org \
-   --unlock 0xF977814e90dA44bFA03b6295A0616a897441aceC \
-   --p 7545
-   ```
+#### 1.1 Path finding
 
-3) $~$ compile contracts
-   
-   ```
-   npx hardhat compile
-   ```
+#### 1.2 Optimal input amount
 
-4) $~$ send BNB to wallet //we will use our normal crypto wallet 
-   
-   ```
-   npm run fund
-   ```
+```
+### 2. Implementation
 
-5) $~$ deploy contract
-   
-   ```
-   npm run deploy
-   ```
+### 3.Finally
 
-6) $~$ test contract
-   
-   ```
-   npm run test
-   ```
-- or  ```npm run auto_test``` $~$ instead of steps 3-4-5-6
+Uniswap arbitrage is a competitive area, you may find it hard to make profit, but still, Defi is the haven for arbitraguers, you can also arbitrage between different exchanges like curve.fi, balancer.exchange, with flashloans, you can even borrow money to make arbitrage! Happy hacking :)
+
+
+Contact: contactbarankoc@gmail.com
+```
