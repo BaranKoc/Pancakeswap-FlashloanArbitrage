@@ -1,4 +1,4 @@
-<p align="center"><img src="![image](https://user-images.githubusercontent.com/105667595/179388551-ac455c16-b641-4382-9eca-d88bd321f862.png)" alt="MarkText" width="100" height="100"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/105667595/179388551-ac455c16-b641-4382-9eca-d88bd321f862.png" alt="MarkText" width="100" height="100"></p>
 
 <h1 align="center"> Pancakeswap Triangular Flashswap Arbitrage </h1>
 
